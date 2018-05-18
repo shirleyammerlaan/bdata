@@ -1,7 +1,7 @@
 
 
 
-def file_inlezen():
+def file1_inlezen():
     #Returned lijst met daarin alle regels als lijst.
     file = open("Genes_relation.data.txt", "r")
     lines = []
@@ -25,6 +25,15 @@ def file_inlezen():
         if "Auxotrophies, carbon and" in line:
             line = line.replace("Auxotrophies, carbon and","Auxotrophies carbon and")
 
+        line = line.split(",")
+        lines.append(line)
+    return lines
+
+def file2_inlezen():
+    lines = []
+    file = open("Interactions_relation.data.txt", "r")
+    lines = []
+    for line in file.readlines():
         line = line.split(",")
         lines.append(line)
     return lines
@@ -59,8 +68,26 @@ def functiecode_maken(genen, lines, alle_functies):
         dictTF[gen] = listTF
     return(dictTF)
 
-def samenvoegen(lines, dict):
-    
+def samenvoegen(lines, dict, unieke_genen):
+    newLines = []
+    for gen in unieke_genen:
+        for line in lines:
+            if gen == line[0]:
+                newLine = []
+                newLine.append(gen)
+                newLine.append(line[1]),
+                newLine.append(line[2]),
+                newLine.append(line[3]),
+                newLine.append(line[4]),
+                newLine.append(line[5]),
+                newLine.append(line[6]),
+                for boolean in dict[gen]:
+                    newLine.append(boolean)
+                newLine.append(line[8])
+                newLines.append(newLine)
+    return newLines
+
+
 
 
 def main():
@@ -71,19 +98,12 @@ def main():
                 "CELLULAR TRANSPORT AND TRANSPORTMECHANISMS", "ENERGY", "IONIC HOMEOSTASIS", "METABOLISM",
                 "PROTEIN DESTINATION", "PROTEIN SYNTHESIS", "TRANSCRIPTION", "TRANSPORT FACILITATION",
                 "TRANSPOSABLE ELEMENTS VIRAL AND PLASMID PROTEINS"]
-    lines = file_inlezen()
+    lines = file1_inlezen()
     unieke_genen = genen_zoeken(lines)
     gen_function_dict = functiecode_maken(unieke_genen,lines,functies)
+    newLines = samenvoegen(lines, gen_function_dict, unieke_genen)
+    interaction_lines = file2_inlezen()
 
-
-
-
-
-    #Om zelfde genen bij elkaar te laten staan maar dit staan ze al
-    for gen in unieke_genen:
-        for line in lines:
-            if line[0] == gen:
-                pass
 
 
 
