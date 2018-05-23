@@ -1,15 +1,12 @@
-
-
-
 def file1_inlezen():
     #Returned lijst met daarin alle regels als lijst.
     file = open("Genes_relation.data.txt", "r")
     lines = []
     for line in file.readlines():
         if "CELL GROWTH, CELL DIVISION AND DNA SYNTHESIS" in line:
-            line = line.replace("CELL GROWTH, CELL DIVISION AND DNA SYNTHESIS", "CELL GROWTH CELL DIVISION AND DNA SYNTHESIS")
+            line = line.replace('"CELL GROWTH, CELL DIVISION AND DNA SYNTHESIS"', "CELL GROWTH CELL DIVISION AND DNA SYNTHESIS")
         if "CELL RESCUE, DEFENSE, CELL DEATH AND AGEING" in line:
-            line = line.replace("CELL RESCUE, DEFENSE, CELL DEATH AND AGEING", "CELL RESCUE DEFENSE CELL DEATH AND AGEING")
+            line = line.replace('"CELL RESCUE, DEFENSE, CELL DEATH AND AGEING"', "CELL RESCUE DEFENSE CELL DEATH AND AGEING")
         if "Auxotrophies, carbon and" in line:
             line = line.replace("Auxotrophies, carbon and", "Auxotrophies carbon and")
         if "Fatty acid synthetase, cytoplasmic" in line:
@@ -25,16 +22,15 @@ def file1_inlezen():
         if "Auxotrophies, carbon and" in line:
             line = line.replace("Auxotrophies, carbon and","Auxotrophies carbon and")
 
-        line = line.split(",")
+        line = line.strip(".\n").split(",")
         lines.append(line)
     return lines
 
 def file2_inlezen():
-    lines = []
     file = open("Interactions_relation.data.txt", "r")
     lines = []
     for line in file.readlines():
-        line = line.split(",")
+        line = line.strip(".\n").split(",")
         lines.append(line)
     return lines
 
@@ -79,7 +75,7 @@ def samenvoegen(lines, dict, unieke_genen):
                 newLine.append(line[2]),
                 newLine.append(line[3]),
                 newLine.append(line[4]),
-                newLine.append(line[5]),
+                #newLine.append(line[5]),
                 newLine.append(line[6]),
                 for boolean in dict[gen]:
                     newLine.append(boolean)
@@ -102,12 +98,37 @@ def main():
     unieke_genen = genen_zoeken(lines)
     gen_function_dict = functiecode_maken(unieke_genen,lines,functies)
     newLines = samenvoegen(lines, gen_function_dict, unieke_genen)
+    newLines = [list(x) for x in set(tuple(x) for x in newLines)]
+
     interaction_lines = file2_inlezen()
+    int_lines = sorted(interaction_lines)
+
+    interaction_dict = {}
+    lijst = []
+    for gen in unieke_genen:
+        for gen2 in unieke_genen:
+            for line in int_lines:
+                if (gen == line[0] and gen2 == line[1]) or (gen == line[1] and gen2 == line[0]):
+                    lijst.append(line[3])
+                else:
+                    lijst.append(None)
+        interaction_dict[gen] = lijst
+
+    for i in interaction_dict['G238510']:
+        if i is not None:
+            print(i)
 
 
 
-
-
+    # print(len(functies))
+    # functies2 = []
+    # for i in lines:
+    #     functies2.append(i[7])
+    #     print(i[7])
+    # functies2 = set(functies2)
+    # print(len(functies2))
+    # for i in functies2:
+    #     print(i)
 
 
 
