@@ -64,7 +64,7 @@ def functiecode_maken(genen, lines, alle_functies):
         dictTF[gen] = listTF
     return(dictTF)
 
-def samenvoegen(lines, dict, unieke_genen):
+def samenvoegen(lines, dict, unieke_genen, int_dict):
     newLines = []
     for gen in unieke_genen:
         for line in lines:
@@ -78,12 +78,12 @@ def samenvoegen(lines, dict, unieke_genen):
                 #newLine.append(line[5]),
                 newLine.append(line[6]),
                 for boolean in dict[gen]:
-                    newLine.append(boolean)
+                    newLine.append(str(boolean))
                 newLine.append(line[8])
+                for val in int_dict[gen]:
+                    newLine.append(str(val))
                 newLines.append(newLine)
     return newLines
-
-
 
 
 def main():
@@ -95,40 +95,65 @@ def main():
                 "PROTEIN DESTINATION", "PROTEIN SYNTHESIS", "TRANSCRIPTION", "TRANSPORT FACILITATION",
                 "TRANSPOSABLE ELEMENTS VIRAL AND PLASMID PROTEINS"]
     lines = file1_inlezen()
+
+    for line in lines:
+        if line.count('?') > 4:
+            lines.remove(line)
+
+
     unieke_genen = genen_zoeken(lines)
     gen_function_dict = functiecode_maken(unieke_genen,lines,functies)
-    newLines = samenvoegen(lines, gen_function_dict, unieke_genen)
-    newLines = [list(x) for x in set(tuple(x) for x in newLines)]
 
     interaction_lines = file2_inlezen()
-    int_lines = sorted(interaction_lines)
+
+    uniq_interaction = []
+    for i in interaction_lines:
+        if i[0] not in uniq_interaction:
+            uniq_interaction.append(i[0])
+        if i[1] not in uniq_interaction:
+            uniq_interaction.append(i[1])
+
+    sort_lines = sorted(interaction_lines)
 
     interaction_dict = {}
-    lijst = []
     for gen in unieke_genen:
-        for gen2 in unieke_genen:
-            for line in int_lines:
-                if (gen == line[0] and gen2 == line[1]) or (gen == line[1] and gen2 == line[0]):
-                    lijst.append(line[3])
+        interaction_list = []
+        count = physical = genetic = gen_phys = corr = 0
+        for line in sort_lines:
+            if gen in line:
+                count += 1
+                if line[3] is not '?':
+                    corr += abs(float(line[3]))
                 else:
-                    lijst.append(None)
-        interaction_dict[gen] = lijst
+                    avg_corr = None
+                if line[2] == 'Genetic':
+                    genetic += 1
+                elif line[2] == 'Physical':
+                    physical += 1
+                elif line[2] == 'Genetic-Physical':
+                    gen_phys += 1
+            else:
+                avg_corr = None
+        if corr != 0:
+            avg_corr = corr / count
+            if avg_corr < 0:
+                avg_corr = avg_corr
+        interaction_list.extend((count, genetic, physical, gen_phys, avg_corr))
+        interaction_dict[gen] = interaction_list
+    print(len(interaction_dict))
+    newLines = samenvoegen(lines, gen_function_dict, unieke_genen, interaction_dict)
+    newLines = [list(x) for x in set(tuple(x) for x in newLines)]
 
-    for i in interaction_dict['G238510']:
-        if i is not None:
-            print(i)
 
+    new_file = open('genes_interactions_relations.txt', 'w')
+    uniq = []
+    for line in newLines:
+        if line[0] not in uniq:
+            print(line[0])
+            new_file.write(','.join(line) + '\n')
+            uniq.append(line[0])
+    new_file.close()
 
-
-    # print(len(functies))
-    # functies2 = []
-    # for i in lines:
-    #     functies2.append(i[7])
-    #     print(i[7])
-    # functies2 = set(functies2)
-    # print(len(functies2))
-    # for i in functies2:
-    #     print(i)
 
 
 
