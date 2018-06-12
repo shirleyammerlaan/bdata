@@ -1,0 +1,290 @@
+essential,class,complex,phenotype,chromosome,CELL GROWTH CELL DIVISION AND DNA SYNTHESIS,CELL RESCUE DEFENSE CELL DEATH AND AGEING,CELLULAR BIOGENESIS,CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION,CELLULAR ORGANIZATION,CELLULAR TRANSPORT AND TRANSPORTMECHANISMS,ENERGY,IONIC HOMEOSTASIS,METABOLISM,PROTEIN DESTINATION,PROTEIN SYNTHESIS,TRANSCRIPTION,TRANSPORT FACILITATION,localization,aantal_correlaties,genetic,physical,genetic-physical,gem_correlatie
+Non-Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,0,4,1,0.5862523283333334
+Non-Essential,?,Cytoskeleton,Mating and sporulation defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.58048433
+Non-Essential,GTP/GDP-exchange factors (GEFs),?,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,3,0,0.4757444866666667
+Non-Essential,?,Intracellular transport complexes,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.49027247
+Non-Essential,?,Ornithine carbamoyltransferase,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.8526245
+Non-Essential,Transcription factors,?,?,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.5593934
+Non-Essential,?,?,Nucleic acid metabolism defects,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,Proteases,"Proteases mitochondrial",Nucleic acid metabolism defects,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,?,Hexokinase 2,Mating and sporulation defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.42442436
+Non-Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,0,5,0,0.691796684
+Non-Essential,?,?,Nucleic acid metabolism defects,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.37257687
+Non-Essential,GTPase activating proteins (GAPs),?,Sensitivity to aminoacid analogs and other drugs,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,9,8,0,0,0.48000830333333333
+Non-Essential,?,Intracellular transport complexes,Mating and sporulation defects,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,1,0.95793116
+Non-Essential,?,Transcription complexes/Transcriptosome,Cell cycle defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,1,1,0,0.7934938633333334
+Non-Essential,?,Translocon,Conditional phenotypes,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,1,0,0.44595607
+Non-Essential,Nucleases,RNA processing complexes,Nucleic acid metabolism defects,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.05297035
+Non-Essential,Transcription factors,?,"Auxotrophies carbon and",6,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,None
+Non-Essential,?,Gim complexes,Unknown,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,1,4,1,0.6202801000000001
+Essential,?,Translation complexes,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.864462615
+Non-Essential,?,Cytoskeleton,Cell morphology and organelle mutants,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.21661729
+Non-Essential,?,Histone deacetylase complexes,Nucleic acid metabolism defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,1,0,0.498477225
+Essential,?,Replication complexes,Conditional phenotypes,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.458824855
+Essential,?,RNA processing complexes,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.706160545
+Essential,?,Mitochondrial translocase complex,?,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.76764944
+Non-Essential,Actin related proteins,?,Cell morphology and organelle mutants,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,4,1,1,0.412800245
+Non-Essential,Transcription factors,?,Cell morphology and organelle mutants,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,None
+Essential,?,Proteasome,Nucleic acid metabolism defects,6,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,3,0,0,0.52104332
+Essential,?,Replication complexes,Cell morphology and organelle mutants,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,3,0,1,0.4748248
+Non-Essential,?,Nem1p-Spo7p complex,Conditional phenotypes,1,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,4,1,0,0.43261022000000005
+?,Transcription factors,?,?,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,Histones,Nucleosomal protein complex,Conditional phenotypes,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.02045636
+Non-Essential,Polymerases,Cyclin-CDK (Cyclin-dependent kinases) complexes,Cell morphology and organelle mutants,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.81233665
+Non-Essential,?,Intracellular transport complexes,Unknown,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,12,4,7,1,0.6671578091666667
+Non-Essential,?,?,Cell morphology and organelle mutants,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.528696365
+Non-Essential,?,?,Mating and sporulation defects,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,0,5,0,0.467777856
+Non-Essential,?,?,Cell morphology and organelle mutants,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.10161237
+Non-Essential,?,Nuclear pore complex (NPC),Mating and sporulation defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.8199997
+Non-Essential,?,Cytoskeleton,Mating and sporulation defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,4,0,0,0.32952548
+Non-Essential,ATPases,?,?,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.0701931
+Essential,?,Sister chromatid cohesion regulation complex,Cell cycle defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,1,0.24518926
+Non-Essential,?,Transcription complexes/Transcriptosome,Mating and sporulation defects,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,21,7,11,0,0.30907907619047614
+Non-Essential,?,?,?,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.38718407
+Non-Essential,?,Transcription complexes/Transcriptosome,Conditional phenotypes,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.08655869
+Essential,Ubiquitin-system proteins,?,Cell morphology and organelle mutants,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,1,0,0.40061759333333335
+Essential,ATPases,Translocon,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,0,1,0.5135899
+Essential,?,Nuclear pore complex (NPC),Cell morphology and organelle mutants,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,0,0.5896134366666667
+Non-Essential,?,"Alpha alpha-trehalose-phosphate synthase",Conditional phenotypes,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,3,0,0.66954262
+Non-Essential,Unknown,Transcription complexes/Transcriptosome,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.7436485399999999
+Non-Essential,?,Respiration chain complexes,"Auxotrophies carbon and",4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,?,Intracellular transport complexes,Stress response defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,0,0.39220755333333335
+Essential,ATPases,Proteasome,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,0,3,0,0.36380819999999997
+Essential,Polymerases,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,?,Translocon,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,0,0,0.9281109599999999
+Essential,Polymerases,Replication complexes,Conditional phenotypes,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,1,0,1,0.31459337666666665
+Non-Essential,ATPases,Nonsense-mediated mRNA decay pathway complex,Sensitivity to aminoacid analogs and other drugs,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,3,0,0.8489423033333333
+Ambiguous-Non-Essential,?,Intracellular transport complexes,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,2,3,0,0.6425835619999999
+Essential,Major facilitator superfamily proteins (MFS),Translocon,Cell morphology and organelle mutants,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,1,0.84982771
+Non-Essential,?,Transcription complexes/Transcriptosome,Conditional phenotypes,1,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,4,0,1,0.48680736166666666
+?,Transcription factors,?,?,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,0,4,0,0.17182956200000002
+Non-Essential,Transcription factors,?,Conditional phenotypes,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.42492197
+Essential,Ubiquitin-system proteins,?,Cell morphology and organelle mutants,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.00190968
+Non-Essential,Protein Kinases,?,Mating and sporulation defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,ATPases,"Proteases mitochondrial","Auxotrophies carbon and",5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.70053894
+Non-Essential,Transcription factors,?,Conditional phenotypes,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.03546064
+Essential,Molecular chaperones,Chaperonine containing T-complex TRiC (TCP RING Complex),?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,6,0,0,0.70893441
+Non-Essential,?,?,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,Motorproteins,Cytoskeleton,?,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,3,0,0,0.33412775249999993
+Essential,?,Intracellular transport complexes,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,0,0,0.7323425
+Non-Essential,Molecular chaperones,?,Conditional phenotypes,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.80417316
+Non-Essential,Cyclins,Cyclin-CDK (Cyclin-dependent kinases) complexes,Cell morphology and organelle mutants,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,1,0,0.65889679
+Non-Essential,GTP-binding proteins,Cytoskeleton,Mating and sporulation defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,1,0,None
+Non-Essential,?,Isocitrate lyase,"Auxotrophies carbon and",5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,1,0,0.7649050366666668
+Essential,Polymerases,Replication complexes,Unknown,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.152071255
+Non-Essential,?,?,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.28415358
+Non-Essential,Ubiquitin-system proteins,?,Conditional phenotypes,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,0,1,0.471390665
+Essential,?,Cytoskeleton,Cell morphology and organelle mutants,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,0,5,0,0.7633341440000001
+Essential,Polymerases,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.7289126
+Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,1,2,0.6565171025000001
+Non-Essential,?,Transcription complexes/Transcriptosome,Cell cycle defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.530318895
+Non-Essential,?,Transcription complexes/Transcriptosome,Mating and sporulation defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,1,2,0,0.4877942833333333
+Non-Essential,Ubiquitin-system proteins,?,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,0,0,0.574549325
+Non-Essential,?,Intracellular transport complexes,?,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.485930795
+Non-Essential,Protein phosphatases,Synaptonemal complex (SC),Mating and sporulation defects,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,1,2,1,0.4205223875
+Non-Essential,?,Translation complexes,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.97734777
+Non-Essential,ATPases,Intracellular transport complexes,Mating and sporulation defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.15066715
+Non-Essential,?,Translation complexes,Cell morphology and organelle mutants,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.31850867
+Essential,Ubiquitin-system proteins,SCF (Skp1-Cdc53-F-box protein) complexes,Cell morphology and organelle mutants,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,3,1,4,0.3274326025
+Non-Essential,?,?,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.535776985
+Essential,Molecular chaperones,Chaperonine containing T-complex TRiC (TCP RING Complex),Cell morphology and organelle mutants,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,2,0,1,0.71383936
+Non-Essential,?,Histone acetyltransferase complexes,Nucleic acid metabolism defects,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,12,0,11,0,0.4673642883333333
+Non-Essential,?,Anaphase promoting complex (APC),Cell cycle defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,7,0,4,0,0.2597114385714286
+Essential,?,?,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.30625416
+Non-Essential,Ubiquitin-system proteins,Proteasome,Cell cycle defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.79575244
+Non-Essential,?,?,?,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.7393912149999999
+Essential,?,Intracellular transport complexes,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,16,6,8,1,0.569507326875
+Ambiguous-Non-Essential,Polymerases,Transcription complexes/Transcriptosome,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,7,0,6,0,0.41697333
+Essential,?,Transcription complexes/Transcriptosome,?,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.25850253
+Essential,?,RNA processing complexes,Conditional phenotypes,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,1,0.9804776166666667
+Non-Essential,Transcription factors,?,?,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,0,5,0,0.4884534240000001
+Essential,ATPases,?,Cell cycle defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,3,0,0.172342195
+Non-Essential,?,Transcription complexes/Transcriptosome,Carbohydrate and lipid biosynthesis defects,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,1,5,0,0.6597341383333334
+Essential,Polymerases,Replication complexes,Cell cycle defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,1,1,0.74439784
+Non-Essential,?,?,"Auxotrophies carbon and",?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.3701683
+Essential,?,?,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.8248694
+Non-Essential,Transcription factors,?,Cell morphology and organelle mutants,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.45132697
+Non-Essential,Motorproteins,Cytoskeleton,?,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,3,1,0,0.6896666066666667
+Non-Essential,?,?,Carbohydrate and lipid biosynthesis defects,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.94478686
+Non-Essential,?,RNA processing complexes,Cell cycle defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.376745105
+Non-Essential,?,Nuclear pore complex (NPC),Conditional phenotypes,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,7,2,4,0,0.37094965857142853
+Non-Essential,Major facilitator superfamily proteins (MFS),?,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.83407265
+Essential,?,Cytoskeleton,Cell cycle defects,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,1,3,1,0.4894701283333333
+Non-Essential,Protein Kinases,Unknown,Cell morphology and organelle mutants,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.32172295
+Non-Essential,?,Transcription complexes/Transcriptosome,Conditional phenotypes,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.587856845
+Essential,Other kinases,?,Cell morphology and organelle mutants,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,0,0,0.3523681133333334
+Non-Essential,?,?,Cell morphology and organelle mutants,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.88892274
+Non-Essential,?,?,?,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,4,0,0.52095106
+Essential,?,Anaphase promoting complex (APC),Cell cycle defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,7,0,7,0,0.29857747428571424
+Non-Essential,?,?,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,None
+Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,11,1,10,0,0.6995671872727273
+Non-Essential,Ubiquitin-system proteins,?,Stress response defects,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.29380228
+Non-Essential,Polymerases,Transcription complexes/Transcriptosome,Conditional phenotypes,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.7792047
+Non-Essential,Transcription factors,?,Nucleic acid metabolism defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,1,2,0,0.12979838666666668
+Non-Essential,Protein Kinases,Cyclin-CDK (Cyclin-dependent kinases) complexes,Mating and sporulation defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.47934135
+Essential,?,?,Cell cycle defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,1,0.6743101466666667
+Essential,?,Transcription complexes/Transcriptosome,Conditional phenotypes,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.72804822
+Non-Essential,?,RNA processing complexes,Conditional phenotypes,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,1,0,0.4257519966666667
+Non-Essential,?,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,1,0.8547315
+Non-Essential,Transcription factors,Transcription complexes/Transcriptosome,Cell cycle defects,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.61896739
+Essential,?,Replication complexes,Conditional phenotypes,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.40560620000000003
+Essential,?,RNA processing complexes,Cell morphology and organelle mutants,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,1,4,1,None
+Essential,?,RNA processing complexes,Conditional phenotypes,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,1,0.76566006
+Non-Essential,?,?,"Auxotrophies carbon and",10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.68980449
+Non-Essential,?,?,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.79570508
+Essential,Polymerases,Transcription complexes/Transcriptosome,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,0,0,0.53515261
+Non-Essential,?,?,Cell cycle defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,4,0,0,0.4464932875
+Non-Essential,?,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.42877415500000005
+Essential,?,?,?,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.72868007
+Essential,?,RNA processing complexes,Conditional phenotypes,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.57124184
+Essential,ATPases,Proteasome,Conditional phenotypes,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,0,1,0.61655611
+Essential,Actin related proteins,Intracellular transport complexes,Cell morphology and organelle mutants,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.74538416
+Ambiguous-Non-Essential,?,?,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.42253359999999995
+?,?,?,Mating and sporulation defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.20650882
+Essential,?,?,Cell morphology and organelle mutants,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.624746555
+Non-Essential,?,Transcription complexes/Transcriptosome,Cell cycle defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,0,6,0,0.6298483199999999
+Essential,Polymerases,Replication complexes,Unknown,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.64062256
+Non-Essential,GTP-binding proteins,Intracellular transport complexes,Mating and sporulation defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,6,0,0,0.64879326
+Essential,?,Exocyst complex,Cell morphology and organelle mutants,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.504589525
+Ambiguous-Essential,Ubiquitin-system proteins,Translation complexes,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.81274766
+Non-Essential,?,?,Conditional phenotypes,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,Protein Kinases,?,Cell morphology and organelle mutants,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,1,0.44564852
+Non-Essential,ATPases,?,Nucleic acid metabolism defects,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,None
+Non-Essential,GTP-binding proteins,?,Conditional phenotypes,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,4,0,0,0.6982120249999999
+Essential,?,Kinetochore protein complexes,Cell cycle defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,2,3,2,0.435754905
+Non-Essential,?,?,Cell morphology and organelle mutants,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,?,Cytoskeleton,Conditional phenotypes,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.58529512
+Ambiguous-Essential,?,?,Cell cycle defects,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.77519007
+Essential,?,?,?,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.70288583
+Non-Essential,?,Cytoskeleton,Conditional phenotypes,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,0,5,0,0.7276902766666665
+Non-Essential,Transcription factors,Transcription complexes/Transcriptosome,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.5565319
+Essential,?,SCF (Skp1-Cdc53-F-box protein) complexes,Stress response defects,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,2,2,0.33758181
+Non-Essential,GTP-binding proteins,RNA processing complexes,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.94593784
+Non-Essential,?,Translation complexes,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,?,?,Conditional phenotypes,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,2,5,1,0.34840169875000004
+Essential,?,Proteasome,?,6,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.67849328
+Non-Essential,?,?,?,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,0,0,0.80721154
+Non-Essential,Molecular chaperones,?,"Auxotrophies carbon and",6,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,3,0,0.46596549666666665
+Non-Essential,?,Cytoskeleton,Mating and sporulation defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,1,0.56946919
+Non-Essential,?,?,"Auxotrophies carbon and",3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.289930105
+Essential,Transcription factors,?,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,Polymerases,Transcription complexes/Transcriptosome,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,0,5,0,0.224782828
+Non-Essential,?,?,Conditional phenotypes,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,?,?,Unknown,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,1,0,0.593136385
+Non-Essential,ATPases,Respiration chain complexes,"Auxotrophies carbon and",2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.25069076
+Non-Essential,?,?,Cell morphology and organelle mutants,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.07177239
+Non-Essential,Proteases,?,?,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.779743415
+Non-Essential,?,?,Cell morphology and organelle mutants,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,4,0,0.5656092825
+Non-Essential,Transcription factors,?,Nucleic acid metabolism defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.28893733
+Non-Essential,Protein Kinases,?,Cell cycle defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,9,4,5,0,0.3928594911111111
+Essential,Polymerases,Transcription complexes/Transcriptosome,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.708586565
+Ambiguous-Essential,Major facilitator superfamily proteins (MFS),?,Stress response defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,3,0,0.8658472599999999
+Non-Essential,Cyclins,Cyclin-CDK (Cyclin-dependent kinases) complexes,Conditional phenotypes,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.387960295
+Non-Essential,?,Assembly complexes,Nucleic acid metabolism defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,Nucleases,RNA processing complexes,Nucleic acid metabolism defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.89888188
+Non-Essential,?,Translation complexes,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,7,1,2,2,0.8691784542857144
+Non-Essential,?,Translocon,Cell morphology and organelle mutants,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.71214306
+Non-Essential,?,?,Conditional phenotypes,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.47159852
+Non-Essential,Proteases,"Proteases mitochondrial","Auxotrophies carbon and",2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,1,0,0.082794655
+Non-Essential,?,Translation complexes,Conditional phenotypes,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.99547069
+?,?,?,?,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.30977443
+Non-Essential,?,Histone deacetylase complexes,Nucleic acid metabolism defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.81623176
+Non-Essential,?,?,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.65808152
+Essential,?,RNA processing complexes,Conditional phenotypes,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,1,2,2,0.46420642
+Essential,Protein Kinases,Casein kinase,Nucleic acid metabolism defects,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.53127796
+Non-Essential,Protein Kinases,?,?,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.73128815
+Non-Essential,Molecular chaperones,?,Conditional phenotypes,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,0,0,0.73000184
+Essential,?,Nuclear pore complex (NPC),Conditional phenotypes,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,3,1,0,0.6784188025
+Non-Essential,?,?,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,ATPases,Proteasome,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.25245507
+Non-Essential,?,Respiration chain complexes,"Auxotrophies carbon and",4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.97492093
+Essential,Transcription factors,Transcription complexes/Transcriptosome,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,9,0,8,0,0.2478503988888889
+Non-Essential,?,Translation complexes,?,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.96908197
+Essential,?,Translocon,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,1,1,0,0.8155944024999999
+Non-Essential,?,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,7,1,3,0,0.5916393685714285
+Essential,Actins,Cytoskeleton,Cell cycle defects,6,False,False,False,False,False,False,False,False,False,False,False,False,False,?,30,6,18,3,0.41750168933333337
+Essential,?,RNA processing complexes,Conditional phenotypes,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.30988196
+Non-Essential,Adaptins,Intracellular transport complexes,?,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,3,0,0.453325645
+Essential,?,?,Nucleic acid metabolism defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,1,0.61026664
+Non-Essential,?,?,Conditional phenotypes,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.6269483
+Non-Essential,Transcription factors,Transcription complexes/Transcriptosome,Cell morphology and organelle mutants,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,9,6,2,0,0.49134772
+Non-Essential,Transcription factors,?,Mating and sporulation defects,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.5847716
+Non-Essential,?,RNA processing complexes,Conditional phenotypes,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,1,0.76566006
+Essential,?,?,Sensitivity to antibiotics,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,?,Anaphase promoting complex (APC),Conditional phenotypes,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,1,5,1,0.22670271375
+Essential,Cyclins,Cyclin-CDK (Cyclin-dependent kinases) complexes,?,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.21498395
+Non-Essential,?,Translation complexes,?,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.98490623
+Non-Essential,?,Translation complexes,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.98490623
+Non-Essential,?,Transcription complexes/Transcriptosome,Cell cycle defects,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,1,4,0,0.262863928
+Non-Essential,Major facilitator superfamily proteins (MFS),Nuclear pore complex (NPC),Conditional phenotypes,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,3,0,0,0.746978215
+Non-Essential,Motorproteins,Cytoskeleton,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.10569174
+Non-Essential,?,?,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.8868096
+Non-Essential,Transcription factors,?,Cell morphology and organelle mutants,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.40745963
+Non-Essential,?,Respiration chain complexes,"Auxotrophies carbon and",?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,None
+Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,6,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,None
+Essential,Transcription factors,Transcription complexes/Transcriptosome,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,4,0,0.47581915
+Essential,?,RNA processing complexes,Conditional phenotypes,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,?,Transcription complexes/Transcriptosome,Conditional phenotypes,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.53657439
+Essential,Ubiquitin-system proteins,?,Cell cycle defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,4,0,0.37104248500000003
+Non-Essential,GTP-binding proteins,?,?,10,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.83021682
+Non-Essential,ATPases,?,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.39589519
+Non-Essential,?,Translation complexes,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.9699775150000001
+Essential,?,Proteasome,Mating and sporulation defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,?,Anaphase promoting complex (APC),Conditional phenotypes,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,0,6,0,0.39094063375
+Essential,Polymerases,Transcription complexes/Transcriptosome,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.10956856
+Non-Essential,?,Intracellular transport complexes,?,8,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.30487201
+Ambiguous-Essential,?,RNA processing complexes,Nucleic acid metabolism defects,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.48016618
+Essential,Proteases,Translocon,?,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,0,1,0.68357746
+Non-Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,16,0,15,0,0.34322217875000005
+Non-Essential,?,RNA processing complexes,?,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,3,2,0,0.603788954
+Non-Essential,?,?,?,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.10161237
+Non-Essential,GTP-binding proteins,?,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,3,0,0,0.6281212975
+Non-Essential,Transcription factors,?,?,3,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.12471704
+Non-Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,0,0.8671978466666665
+Non-Essential,Major facilitator superfamily proteins (MFS),?,?,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,0,0,0.05338366
+Non-Essential,ATPases,"H+-transporting ATPase vacuolar",Cell morphology and organelle mutants,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.044588115
+?,Protein Kinases,Casein kinase,?,5,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.77005762
+Non-Essential,Transcription factors,?,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,None
+Essential,?,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,2,0,1,0.3602660466666667
+Non-Essential,?,Translation complexes,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,1,0,0.8741012699999999
+Non-Essential,?,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,3,0,0.25395184
+Non-Essential,?,?,?,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,?,?,Cell morphology and organelle mutants,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,Molecular chaperones,?,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.53686434
+Essential,?,?,Conditional phenotypes,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,2,3,0,0.333712965
+?,?,?,?,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.82722864
+Non-Essential,Motorproteins,Cytoskeleton,Cell cycle defects,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,2,0,0,0.79239466
+Non-Essential,?,?,Mating and sporulation defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.557736795
+Essential,?,?,?,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.83493069
+Essential,GTP/GDP-exchange factors (GEFs),?,Cell morphology and organelle mutants,7,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,2,1,0.3934283033333334
+Essential,Molecular chaperones,?,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.28594118
+Non-Essential,?,?,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.581780375
+Non-Essential,?,?,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,0,6,0,0.7003921000000001
+Essential,ATPases,Translation complexes,Unknown,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.80631493
+Non-Essential,?,?,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,1,1,0,0.22414326
+Non-Essential,Ubiquitin-system proteins,?,?,13,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.86013755
+Non-Essential,?,?,Stress response defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.53024145
+Non-Essential,?,?,Mating and sporulation defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,4,0,0.621462445
+Non-Essential,?,?,Conditional phenotypes,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.14041999
+?,Protein Kinases,?,?,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,?,?,?,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,8,0,4,1,0.31372496625
+Non-Essential,?,Intracellular transport complexes,Cell morphology and organelle mutants,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,6,1,5,0,0.529651365
+Non-Essential,Transcription factors,?,"Auxotrophies carbon and",15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,0,0,0.334116045
+Essential,GTP-binding proteins,Translation complexes,"Auxotrophies carbon and",4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,4,0,0.6067220475
+Non-Essential,ATPases,?,?,2,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.31620963
+Non-Essential,?,?,?,15,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Essential,Molecular chaperones,Mitochondrial translocase complex,Cell morphology and organelle mutants,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,2,0,2,0,0.37783698499999996
+Non-Essential,ATPases,Respiration chain complexes,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,None
+Non-Essential,?,?,?,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,7,6,0,0,0.7551477714285714
+Non-Essential,?,?,Conditional phenotypes,12,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,0.14041999
+Non-Essential,?,Cytoskeleton,Mating and sporulation defects,4,False,False,False,False,False,False,False,False,False,False,False,False,False,?,3,0,3,0,0.42245584999999997
+Essential,ATPases,Replication complexes,Nucleic acid metabolism defects,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,1,2,1,0.6732230175
+Essential,?,Transcription complexes/Transcriptosome,?,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,1,3,0,0.4543148779999999
+Non-Essential,?,Translation complexes,?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,5,4,0,1,0.811892216
+Essential,ATPases,"H+-ATPase, plasma mebrane",PS00154,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,Major facilitator superfamily proteins (MFS),?,?,11,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.0703039
+Essential,?,Transcription complexes/Transcriptosome,Nucleic acid metabolism defects,9,False,False,False,False,False,False,False,False,False,False,False,False,False,?,0,0,0,0,None
+Non-Essential,Proteases,"Proteases mitochondrial",?,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,1,0,0,None
+Essential,ATPases,RNA processing complexes,Conditional phenotypes,?,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,0,0,0.90911935
+Essential,?,Intracellular transport complexes,?,16,False,False,False,False,False,False,False,False,False,False,False,False,False,?,4,0,0,1,0.71787981
+Non-Essential,?,?,Cell cycle defects,14,False,False,False,False,False,False,False,False,False,False,False,False,False,?,1,0,1,0,0.81405974
