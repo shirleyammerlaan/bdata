@@ -92,14 +92,12 @@ def main():
                 "CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION",
                 "CELLULAR ORGANIZATION (proteins are localized to the corresponding organelle)",
                 "CELLULAR TRANSPORT AND TRANSPORTMECHANISMS", "ENERGY", "IONIC HOMEOSTASIS", "METABOLISM",
-                "PROTEIN DESTINATION", "PROTEIN SYNTHESIS", "TRANSCRIPTION", "TRANSPORT FACILITATION",
-                "TRANSPOSABLE ELEMENTS VIRAL AND PLASMID PROTEINS"]
+                "PROTEIN DESTINATION", "PROTEIN SYNTHESIS", "TRANSCRIPTION", "TRANSPORT FACILITATION"]
     lines = file1_inlezen()
 
     for line in lines:
         if line.count('?') > 4:
             lines.remove(line)
-
 
     unieke_genen = genen_zoeken(lines)
     gen_function_dict = functiecode_maken(unieke_genen,lines,functies)
@@ -140,17 +138,16 @@ def main():
                 avg_corr = avg_corr
         interaction_list.extend((count, genetic, physical, gen_phys, avg_corr))
         interaction_dict[gen] = interaction_list
-    print(len(interaction_dict))
     newLines = samenvoegen(lines, gen_function_dict, unieke_genen, interaction_dict)
     newLines = [list(x) for x in set(tuple(x) for x in newLines)]
 
 
     new_file = open('genes_interactions_relations.txt', 'w')
     uniq = []
+    new_file.write("essential,class,complex,phenotype,chromosome,CELL GROWTH CELL DIVISION AND DNA SYNTHESIS,CELL RESCUE DEFENSE CELL DEATH AND AGEING,CELLULAR BIOGENESIS,CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION,CELLULAR ORGANIZATION,CELLULAR TRANSPORT AND TRANSPORTMECHANISMS,ENERGY,IONIC HOMEOSTASIS,METABOLISM,PROTEIN DESTINATION,PROTEIN SYNTHESIS,TRANSCRIPTION,TRANSPORT FACILITATION,localization,genetic,physical,genetic-physical,gem_correlatie")
     for line in newLines:
         if line[0] not in uniq:
-            print(line[0])
-            new_file.write(','.join(line) + '\n')
+            new_file.write(','.join(line[1:]) + '\n')
             uniq.append(line[0])
     new_file.close()
 
