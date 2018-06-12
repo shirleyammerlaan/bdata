@@ -120,7 +120,7 @@ def main():
         for line in sort_lines:
             if gen in line:
                 count += 1
-                if line[3] is not '?':
+                if '.' in line[3]:
                     corr += abs(float(line[3]))
                 else:
                     avg_corr = None
@@ -144,7 +144,7 @@ def main():
 
     new_file = open('genes_interactions_relations.txt', 'w')
     uniq = []
-    new_file.write("essential,class,complex,phenotype,chromosome,CELL GROWTH CELL DIVISION AND DNA SYNTHESIS,CELL RESCUE DEFENSE CELL DEATH AND AGEING,CELLULAR BIOGENESIS,CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION,CELLULAR ORGANIZATION,CELLULAR TRANSPORT AND TRANSPORTMECHANISMS,ENERGY,IONIC HOMEOSTASIS,METABOLISM,PROTEIN DESTINATION,PROTEIN SYNTHESIS,TRANSCRIPTION,TRANSPORT FACILITATION,aantal_correlaties,localization,genetic,physical,genetic-physical,gem_correlatie\n")
+    new_file.write("essential,class,complex,phenotype,chromosome,CELL GROWTH CELL DIVISION AND DNA SYNTHESIS,CELL RESCUE DEFENSE CELL DEATH AND AGEING,CELLULAR BIOGENESIS,CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION,CELLULAR ORGANIZATION,CELLULAR TRANSPORT AND TRANSPORTMECHANISMS,ENERGY,IONIC HOMEOSTASIS,METABOLISM,PROTEIN DESTINATION,PROTEIN SYNTHESIS,TRANSCRIPTION,TRANSPORT FACILITATION,localization,aantal_correlaties,genetic,physical,genetic-physical,gem_correlatie\n")
     for line in newLines:
         if line[0] not in uniq:
             new_file.write(','.join(line[1:]) + '\n')
