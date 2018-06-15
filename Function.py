@@ -64,60 +64,13 @@ def functiecode_maken(genen, lines, alle_functies):
         dictTF[gen] = listTF
     return(dictTF)
 
-def samenvoegen(lines, dict, unieke_genen, int_dict):
-    newLines = []
-    for gen in unieke_genen:
-        for line in lines:
-            if gen == line[0]:
-                newLine = []
-                newLine.append(gen)
-                newLine.append(line[1]),
-                newLine.append(line[2]),
-                newLine.append(line[3]),
-                newLine.append(line[4]),
-                #newLine.append(line[5]),
-                newLine.append(line[6]),
-                for boolean in dict[gen]:
-                    newLine.append(str(boolean))
-                newLine.append(line[8])
-                for val in int_dict[gen]:
-                    newLine.append(str(val))
-                newLines.append(newLine)
-    return newLines
 
-
-def main():
-    functies = ["CELL GROWTH CELL DIVISION AND DNA SYNTHESIS", "CELL RESCUE DEFENSE CELL DEATH AND AGEING",
-                "CELLULAR BIOGENESIS (proteins are not localized to the corresponding organelle)",
-                "CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION",
-                "CELLULAR ORGANIZATION (proteins are localized to the corresponding organelle)",
-                "CELLULAR TRANSPORT AND TRANSPORTMECHANISMS", "ENERGY", "IONIC HOMEOSTASIS", "METABOLISM",
-                "PROTEIN DESTINATION", "PROTEIN SYNTHESIS", "TRANSCRIPTION", "TRANSPORT FACILITATION"]
-    lines = file1_inlezen()
-
-    for line in lines:
-        if line.count('?') > 4:
-            lines.remove(line)
-
-    unieke_genen = genen_zoeken(lines)
-    gen_function_dict = functiecode_maken(unieke_genen,lines,functies)
-
-    interaction_lines = file2_inlezen()
-
-    uniq_interaction = []
-    for i in interaction_lines:
-        if i[0] not in uniq_interaction:
-            uniq_interaction.append(i[0])
-        if i[1] not in uniq_interaction:
-            uniq_interaction.append(i[1])
-
-    sort_lines = sorted(interaction_lines)
-
+def genen_correlatie(genen, inter_lines):
     interaction_dict = {}
-    for gen in unieke_genen:
+    for gen in genen:
         interaction_list = []
         count = physical = genetic = gen_phys = corr = 0
-        for line in sort_lines:
+        for line in inter_lines:
             if gen in line:
                 count += 1
                 if '.' in line[3]:
@@ -138,20 +91,69 @@ def main():
                 avg_corr = avg_corr
         interaction_list.extend((count, genetic, physical, gen_phys, avg_corr))
         interaction_dict[gen] = interaction_list
-    newLines = samenvoegen(lines, gen_function_dict, unieke_genen, interaction_dict)
-    newLines = [list(x) for x in set(tuple(x) for x in newLines)]
+    return interaction_dict
 
 
+def samenvoegen(lines, dict, unieke_genen, int_dict):
+    newLines = []
+    for gen in unieke_genen:
+        for line in lines:
+            if gen == line[0]:
+                newLine = []
+                newLine.append(gen)
+                newLine.append(line[1]),
+                newLine.append(line[2]),
+                newLine.append(line[3]),
+                newLine.append(line[4]),
+                newLine.append(line[6]),
+                for boolean in dict[gen]:
+                    newLine.append(str(boolean))
+                newLine.append(line[8])
+                for val in int_dict[gen]:
+                    newLine.append(str(val))
+                newLines.append(newLine)
+    return newLines
+
+
+def wegschrijven(lines):
     new_file = open('genes_interactions_relations.txt', 'w')
     uniq = []
-    new_file.write("essential,class,complex,phenotype,chromosome,CELL GROWTH CELL DIVISION AND DNA SYNTHESIS,CELL RESCUE DEFENSE CELL DEATH AND AGEING,CELLULAR BIOGENESIS,CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION,CELLULAR ORGANIZATION,CELLULAR TRANSPORT AND TRANSPORTMECHANISMS,ENERGY,IONIC HOMEOSTASIS,METABOLISM,PROTEIN DESTINATION,PROTEIN SYNTHESIS,TRANSCRIPTION,TRANSPORT FACILITATION,localization,aantal_correlaties,genetic,physical,genetic-physical,gem_correlatie\n")
-    for line in newLines:
+    new_file.write(
+        "genID,essential,class,complex,phenotype,chromosome,CELL GROWTH CELL DIVISION AND DNA SYNTHESIS,CELL RESCUE DEFENSE CELL DEATH AND AGEING,CELLULAR BIOGENESIS,CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION,CELLULAR ORGANIZATION,CELLULAR TRANSPORT AND TRANSPORTMECHANISMS,ENERGY,IONIC HOMEOSTASIS,METABOLISM,PROTEIN DESTINATION,PROTEIN SYNTHESIS,TRANSCRIPTION,TRANSPORT FACILITATION,localization,aantal_correlaties,genetic,physical,genetic-physical,gem_correlatie\n")
+    for line in lines:
         if line[0] not in uniq:
-            new_file.write(','.join(line[1:]) + '\n')
+            new_file.write(','.join(line) + '\n')
             uniq.append(line[0])
     new_file.close()
 
 
+def main():
+    functies = ["CELL GROWTH CELL DIVISION AND DNA SYNTHESIS", "CELL RESCUE DEFENSE CELL DEATH AND AGEING",
+                "CELLULAR BIOGENESIS (proteins are not localized to the corresponding organelle)",
+                "CELLULAR COMMUNICATION/SIGNAL TRANSDUCTION",
+                "CELLULAR ORGANIZATION (proteins are localized to the corresponding organelle)",
+                "CELLULAR TRANSPORT AND TRANSPORTMECHANISMS", "ENERGY", "IONIC HOMEOSTASIS", "METABOLISM",
+                "PROTEIN DESTINATION", "PROTEIN SYNTHESIS", "TRANSCRIPTION", "TRANSPORT FACILITATION"]
+    lines = file1_inlezen()
+
+    unieke_genen = genen_zoeken(lines)
+    gen_function_dict = functiecode_maken(unieke_genen, lines, functies)
+    interaction_lines = file2_inlezen()
+
+    uniq_interaction = []
+    for i in interaction_lines:
+        if i[0] not in uniq_interaction:
+            uniq_interaction.append(i[0])
+        if i[1] not in uniq_interaction:
+            uniq_interaction.append(i[1])
+
+    sort_lines = sorted(interaction_lines)
+    interaction_dict = genen_correlatie(unieke_genen, sort_lines)
+
+    newLines = samenvoegen(lines, gen_function_dict, unieke_genen, interaction_dict)
+    newLines = [list(x) for x in set(tuple(x) for x in newLines)]
+
+    wegschrijven(newLines)
 
 
 main()
