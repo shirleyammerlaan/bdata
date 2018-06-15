@@ -1,4 +1,5 @@
 def file1_inlezen():
+    #Opent de file en verwijdert de komma's in de attribuut waarde zodat er geen karakters onterecht als scheidingsteken wordt gezien.
     #Returned lijst met daarin alle regels als lijst.
     file = open("Genes_relation.data.txt", "r")
     lines = []
@@ -27,6 +28,7 @@ def file1_inlezen():
     return lines
 
 def file2_inlezen():
+    #Leest file in en slaat de data op als een list met daarin van elke regel een lijst van de attribuut waardes.
     file = open("Interactions_relation.data.txt", "r")
     lines = []
     for line in file.readlines():
@@ -66,6 +68,8 @@ def functiecode_maken(genen, lines, alle_functies):
 
 
 def genen_correlatie(genen, inter_lines):
+    #Telt het aantal interacties en maakt hier een nieuw attribuut aan. Het voegt dus eigenlijk meerdere attributen samen en maakt hier
+    #één nieuw kolom van.
     interaction_dict = {}
     for gen in genen:
         interaction_list = []
@@ -95,6 +99,7 @@ def genen_correlatie(genen, inter_lines):
 
 
 def samenvoegen(lines, dict, unieke_genen, int_dict):
+    #Verwijderd specifieke attributen en return een list met daarin van elke instantie alle attributen in een list.
     newLines = []
     for gen in unieke_genen:
         for line in lines:
@@ -116,6 +121,7 @@ def samenvoegen(lines, dict, unieke_genen, int_dict):
 
 
 def wegschrijven(lines):
+    #Maakt een nieuwe file aan en schrijft van elke instantie alle attributen weg.
     new_file = open('genes_interactions_relations.txt', 'w')
     uniq = []
     new_file.write(
